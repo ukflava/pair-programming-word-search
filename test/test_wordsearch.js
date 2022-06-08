@@ -50,7 +50,7 @@ describe("#wordSearch()", function() {
 
     assert.isTrue(result);
   });
-  it("should return true if the word is present Vertical", function() {
+  it("should return False if the word is not present Vertical", function() {
     const result = wordSearch([
       ['A', 'W', 'C', 'F', 'Q', 'U', 'A', 'L'],
       ['S', 'E', 'I', 'N', 'F', 'E', 'L', 'D'],
